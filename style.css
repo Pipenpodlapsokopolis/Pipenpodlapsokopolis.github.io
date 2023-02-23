@@ -1,0 +1,381 @@
+@font-face {
+    font-family: 'Raleway';
+    src: local('Raleway'), local('Raleway'),
+        url('fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+
+.home-list{
+    background-color: #10B582;
+    position: relative;
+    height: 100vh;
+    padding-bottom: 50px;
+    min-height: 687px;
+}
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 100px 0 40px;
+}
+.contact-icon{
+    top: 120px;
+    left: 135px;
+    position: absolute;
+    width: 22px;
+}
+.contact-icon img{
+    margin: 10px 0;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
+    align-items: center;
+}
+
+.img1, .img2 {
+    position: absolute;
+}
+
+
+.img1 {
+    top: 350px;
+    left: 70px;
+}
+
+.img2 {
+    top: 120px;
+    right: 70px;
+}
+.name-list p{
+    color: white;
+    width: 380px;
+    text-align: center;
+}
+
+.name-list h1 {
+    color: white;
+    width: 550px;
+    text-align: center;
+    margin: 40px 0 20px;
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 70px;
+
+}
+.menu {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+.menu a{
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+.score {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 130px;
+}
+.score-block {
+    text-align: center;
+}
+.score-block p{
+    font-weight: 400;
+    font-size: 14px;
+    width: 200px;
+}
+.score-block h2{
+    color: #10B582;
+    font-size: 58px;
+    font-weight: 500;
+
+
+}
+.tichers{
+    width: 100%;
+    display: flex;
+    
+}
+.tichers-text{
+    width: 40%;
+    padding: 0 50px;
+    
+
+}
+.tichers-photo{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 0 25px;
+}
+.tichers-photo-width{
+    width: 30%;
+}
+.tichers-photo-width p{
+    width: 70%;
+}
+.tichers-text h2{
+    margin: 60px 0 20px;
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+}
+.block3{
+    background-color: #10B582;
+    width: 100%;
+    display: flex;
+}
+.block3-photo {
+    width: 40%;
+    padding: 120px 100px 120px 135px;
+}
+.block3-text {
+    width: 50%;
+    color: white;
+    padding: 120px 20px;
+    justify-content: center;
+}
+.block3-text h2{
+    font-weight: 500;
+    font-size: 58px;
+    text-align: center;
+}
+.block3-text p{
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 16px; 
+    width: 480px;   
+}
+.courses {
+    text-align: center;
+    width: 100%;
+}
+.courses h2{
+    padding: 120px 0 60px;
+    font-weight: 500;
+    font-size: 58px;
+}
+.courses-list {
+display: flex;
+justify-content: space-between;
+padding: 0 135px 0;
+}
+.courses-list img{
+    width: 270px;
+}
+.back-photo{
+    background-image: url("images/photoback.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 578px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.back-photo-text{
+width: 510px;
+margin: 0 100px 0 0;
+}
+.back-photo-text h2{
+    font-weight: 500;
+    font-size: 58px;
+}
+.back-photo-text p{
+    margin: 20px 0 50px;
+}
+.end{
+    width: 100%;
+    height: 500px;
+}
+.end-list{
+    width: 100%;
+    margin: 120px 0 0;
+    border-top: 2px gray;
+    border-bottom: 2px gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-list-column {
+    display: flex;
+    flex-direction: column;
+    
+}
+.buton-green{
+    color: white;
+    width: 230px;
+    height: 56px;
+    background: #10B582;
+    border-radius: 0px 20px;
+    border: none;
+    margin: 60px 0 120px;
+}
+.buton-orange{
+    background-color: orange;
+    border-radius: 0 20px;
+    border: none;
+    width: 230px;
+    height: 56px;
+    margin: 30px 0 50px;
+    color: white;
+}
+.head-home {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-head {
+    padding: 40px 135px 58px;
+}
+.head-links {
+    padding: 40px 135px;
+}
+.links-line {
+    padding: 0 135px;
+}
+.course-info {
+    padding: 60px 135px;
+    display: flex;
+    flex-direction: column;
+}
+.course-info h2 {
+    font-weight: 500;
+    font-size: 58px;
+}
+.course-info img {
+    padding: 40px 0;
+}
+.course-info h3 {
+    padding: 0 0 25px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.head-score {
+    padding: 80px 135px 120px;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+}
+.head-score h2{
+    font-weight: 500;
+    font-size: 58px;
+    color: #10B582;
+    padding: 0 0 15px 0;
+}
+.head-score-p {
+    width: 270px;
+}
+.know-list {
+    width: 100%;
+    background-color: #10B582;
+    color: white;
+    display: flex;
+
+    padding: 120px 0;
+}
+.know-list-img {
+    width: 540px;
+    height: 70px;
+    padding: 0 0 0 60px;
+}
+.know-list-text {
+padding: 0 0 0 40px;
+}
+.know-list-text h2{
+    font-weight: 500;
+    font-size: 58px;
+    width: 540px;
+}
+.know-list-text p{
+    font-weight: 400;
+    font-size: 16px;
+    width: 478px
+}
+.courses-skills-text {
+    width: 270px;
+    height: 135px;
+    padding: 0 30px;
+    background: #FDFDFD;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+}
+.courses-skills-text h3{
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.courses-skills-text p{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    margin: 15px 0 0 0;
+}
+.courses-skills-blocs {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 0;
+}
+.courses-skills {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 135px 0;
+}
+.courses-skills h2{
+    font-weight: 500;
+    font-size: 58px;
+}
+.courses-skills-line {
+    display: flex;
+    text-align: left;
+    height: 16px;
+    width: 200px;
+    padding: 25px 0 0 0;
+}
+.salle {
+    width: 100%;
+    background-image: url("images/photo12.png");
+    height: 578px;
+    display: flex;
+    justify-content: right;
+}
+.salle-text {
+    padding: 120px 135px 0 0;
+    width: 450px;
+}
+.salle-text h2{
+    width: 330px;
+    font-weight: 500;
+    font-size: 58px;
+}
+.salle-text p{
+    padding: 20px 0 30px 0;
+}
+.qwestions {
+    padding: 120px 305px;
+}
+.qwestions-block {
+    padding: 30px 0;
+    margin: 30px 0 0;
+    background: #FDFDFD;
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+}
