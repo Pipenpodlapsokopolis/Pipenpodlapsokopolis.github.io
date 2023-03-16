@@ -5,10 +5,14 @@
     font-weight: 700;
     font-style: normal;
 }
+ul{
+    list-style: none;
+}
 * {
     padding: 0;
     margin: 0;
     font-family: 'Raleway';
+    color: #353A5A;
 }
 
 
@@ -202,14 +206,16 @@ margin: 0 100px 0 0;
     margin: 20px 0 50px;
 }
 .end{
+    color: #353A5A;
     width: 100%;
-    height: 500px;
+
 }
 .end-list{
     width: 100%;
     margin: 120px 0 0;
-    border-top: 2px gray;
-    border-bottom: 2px gray;
+    padding: 80px 0 20px;
+    border-top: 2px solid gray;
+    border-bottom:  2px solid gray;;
     display: flex;
     justify-content: space-between;
 }
@@ -238,27 +244,37 @@ margin: 0 100px 0 0;
     color: white;
 }
 .head-home {
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 40px 135px 50px;
 }
-.logo-head {
-    padding: 40px 135px 58px;
+.link-style {
+    color: #353A5A;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
 }
-.head-links {
-    padding: 40px 135px;
+.logo-head img{
+    width: 128px;
+    height: 16px;
+}
+.head-links a{
+    padding: 0 0 0 40px;
 }
 .links-line {
     padding: 0 135px;
 }
 .course-info {
-    padding: 60px 135px;
+    padding: 60px 135px 0;
     display: flex;
     flex-direction: column;
 }
-.course-info h2 {
+.course-info h1 {
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 500;
-    font-size: 58px;
+    font-size: 48px;
+    text-align: left;
 }
 .course-info img {
     padding: 40px 0;
@@ -280,9 +296,7 @@ margin: 0 100px 0 0;
     color: #10B582;
     padding: 0 0 15px 0;
 }
-.head-score-p {
-    width: 270px;
-}
+
 .know-list {
     width: 100%;
     background-color: #10B582;
@@ -312,10 +326,11 @@ padding: 0 0 0 40px;
 .courses-skills-text {
     width: 270px;
     height: 135px;
-    padding: 0 30px;
+    margin: 0 30px;
     background: #FDFDFD;
     box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
     border-radius: 10px;
+    padding: 0 0 0 5px;
 }
 .courses-skills-text h3{
     font-weight: 500;
@@ -370,8 +385,12 @@ padding: 0 0 0 40px;
     padding: 20px 0 30px 0;
 }
 .qwestions {
-    padding: 120px 305px;
+    padding: 120px 305px 0 305px;
 }
+.qwestions h2{
+    font-weight: 500;
+    font-size: 47px;
+    }
 .qwestions-block {
     padding: 30px 0;
     margin: 30px 0 0;
@@ -379,3 +398,83 @@ padding: 0 0 0 40px;
     box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
     border-radius: 10px;
 }
+.qwestions-block p{
+    width: 80%;
+    margin: 15px 0 0 30px;
+}
+.qwestions-block h3{
+    margin: 0 0 0 10px;
+    font-weight: 500;
+    font-size: 22px;
+    width: 80%;
+}
+.end-list-logo {
+    width: 270px;
+    padding: 0 0 0 135px;
+}
+.end-list-logo p{
+    padding: 27px 0 47px;
+}
+.end-list-logo img{
+    padding: 0 25px 0 0;
+}
+.end-list-mail {
+    padding: 0 153px 0 0;
+}
+.end-list-column a{
+    text-decoration: none;
+    color: #353A5A;
+}
+.end-list-mail a {
+    color: #353A5A;
+}
+.end h3{
+    padding: 0 0 11px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.end li{
+    padding: 0 0 20px;
+}
+.end-line {
+    display: flex;
+    justify-content: space-between;
+
+}
+.end-line a{
+    color: #353A5A;
+    text-decoration: none;
+    padding: 0 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.course-info-paragraf {
+    width: 70%;
+}
+.circle-plus {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border-color: #10B582;
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #10B582;
+    font-size: 40px;
+}
+.qwestions-block-line {
+    display: flex;
+    justify-content: space-around;
+}
+.circle-minus {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    border-color: #10B582;
+    border-style: dashed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #10B582;
+    font-size: 40px;}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'montserrat';
+    src: local('montserrat'), local('montserrat'),
+        url('fonts/montserrat/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'montserrat';
+}
+.your{
+    font-weight: 700;
+    color: #2A90D9;
+    font-size: 32px;
+}
+.logo{
+    color: #EE685F;
+    font-weight: 700;
+    font-size: 32px;
+}
+.main-menu {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    height: 39px;
+    margin: 16px 55px;
+}
+.main-menu-links {
+    padding: 9px 0;
+    width: 450px;
+    justify-content: space-between;
+    display: flex;
+}
+.main-menu-links a{
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.main-menu-pict {
+    display: flex;
+    gap: 30px;
+}
+.banner {
+    background-image: url(img/Rectangle\ 5.png);
+    display: flex;
+}
