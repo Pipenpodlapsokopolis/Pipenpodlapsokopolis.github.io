@@ -211,7 +211,6 @@ section {
  padding: 0 0 16px 0;
 }
 .end-line-gray {
-
     background-color: gray;
     padding: 0 0 0 123px;
 }
@@ -304,7 +303,7 @@ section {
         grid-row-gap: 20px;
     }
     * section {
-        padding: 0 50px;
+        padding: 0 16px;
     }
     * p {
         display: none;
@@ -315,5 +314,63 @@ section {
     * h4 {
         padding: 0 5px 0 0;
     }
+    .politics-lines {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+    .line-1 { grid-area: 1 / 1 / 2 / 2; }
+    .news-photo {
+        display: none;
+    }
+    .news-list {
+        width: 100%;
+        grid-area: 1 / 1 / 2 / 3;
+    }
+    .end-links {
+        justify-content: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 0 40px 0;
+    }
+    .end-links h6{
+        padding: 10px 0;
+    }
+    .links {
+        padding: 0 0 40px 0;
+    }
+    .links a{
+        margin: 15px 0;
+    }
+    .end{
+        margin: 10px 0 0;
+    }
+    .end-links-line {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .end-line {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    .head-blok {
+        grid-template-rows: 1fr;
+        margin: 0 0 30px;
+    }
+    .head-blok div {
+        display: none;
+    }
+    .head-blok div:first-child {
+        display: block;
+    }
+
 
 }
